@@ -1,0 +1,11 @@
+{
+  "name": "smartcampus",
+  "version": "1.0.0",
+  "description": "graduation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tientran",
+  "license": "ISC"
+}
