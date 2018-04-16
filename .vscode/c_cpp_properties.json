@@ -49,8 +49,10 @@
                 "D:/MyPC/Documents/Arduino/libraries",
                 "C:/Program Files (x86)/Arduino/hardware",
                 "${workspaceRoot}",
-                "C:/Users/TienTran/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.0",
-                "C:\\Users\\TienTran\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.0\\cores\\esp8266"
+                "C:/Users/TienTran/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.1",
+                "C:\\Users\\TienTran\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.1\\cores\\esp8266",
+                "C:\\Users\\TienTran\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.1\\cores\\esp8266",
+                "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
             ],
             "defines": [
                 "_DEBUG",
@@ -64,12 +66,16 @@
                     "D:/MyPC/Documents/Arduino/libraries",
                     "C:/Program Files (x86)/Arduino/hardware",
                     "${workspaceRoot}",
-                    "C:/Users/TienTran/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.0",
-                    "C:\\Users\\TienTran\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.0\\cores\\esp8266"
+                    "C:/Users/TienTran/AppData/Local/Arduino15/packages/esp8266/hardware/esp8266/2.4.1",
+                    "C:\\Users\\TienTran\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.1\\cores\\esp8266",
+                    "C:\\Users\\TienTran\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\2.4.1\\cores\\esp8266",
+                    "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino"
                 ],
                 "limitSymbolsToIncludedHeaders": false,
                 "databaseFilename": ""
-            }
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
         }
     ],
     "version": 3
