@@ -32,6 +32,8 @@ esp8266.on('connection', function(socket){
  */
 mobileApp.on('connection', function(socket){
     console.log("Mobile app connected!");
+    //Gửi sự kiện login cho app
+    socket.emit("APP_LOGIN", "true");
     //Sự kiện App gửi cho Esp8266
     socket.on("APP_ESP", function(data){
         console.log("App send to Esp8266: " + JSON.stringify(data));
