@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/btnSort"
+        android:title="Sắp xếp kênh">
+        <menu>
+            <item
+                android:id="@+id/btnSortName"
+                android:title="Sắp xếp theo tên kênh"/>
+            <item
+                android:id="@+id/btnSortNum"
+                android:title="Sắp xếp theo số kênh"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/btnAdd"
+        android:title="Thêm kênh"/>
+</menu>

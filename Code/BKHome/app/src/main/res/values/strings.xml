@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BK Tivi</string>
+
+    <string name="volumedown">GIẢM ÂM LƯỢNG</string>
+    <string name="volumeup">TĂNG ÂM LƯỢNG</string>
+    <string name="app_emit">APP_RASPI</string>
+    <string name="volume_up">VOLUMEUP</string>
+    <string name="volume_down">VOLUMEDOWN</string>
+    <string name="channel_up">CHANNELUP</string>
+    <string name="channel_down">CHANNELDOWN</string>
+    <string name="power">POWER</string>
+    <string name="TCL_TV">TCL_TV</string>
+</resources>

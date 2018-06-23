@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Sửa kênh"
+        android:textSize="20dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/edtTenKenh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên kênh"
+        android:layout_marginTop="10dp"
+        android:inputType="textCapCharacters"/>
+    <EditText
+        android:id="@+id/edtSoKenh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kênh số"
+        android:layout_marginTop="10dp"
+        android:inputType="number"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/imageUpdateDialog"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"/>
+        <Button
+            android:id="@+id/btnIconupdateDialog"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity = "center"
+            android:layout_marginLeft="190dp"
+            android:text="..."
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@drawable/botron"
+        android:text="Cập nhật"
+        android:textColor="@android:color/background_light"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>
